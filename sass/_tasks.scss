@@ -1,0 +1,29 @@
+main {
+  margin: 20px;
+  user-select: none;
+}
+
+.task {
+  margin: 30px;
+  width: 50vw;
+  display: grid;
+  grid-template-columns: 1fr 5fr 2fr 3fr 1.5fr;
+  justify-items: center;
+}
+
+.task-head {
+  border: none;
+}
+
+.edit {
+  cursor: pointer;
+  color: gray;
+}
+
+#edit:hover {
+  color: rgb(7, 162, 162);
+}
+
+#delete:hover {
+  color: red;
+}
