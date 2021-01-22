@@ -1,0 +1,68 @@
+nav {
+  border-right: 3px solid $border-color;
+  min-width: 205px;
+  height: 85vh;
+  font-size: 1.2em;
+  user-select: none;
+}
+
+.head {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid $border-color;
+}
+
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.box .row {
+  border: 1px dotted grey;
+}
+
+.box .row.header {
+  flex: 0 1 auto;
+  /* The above is shorthand for:
+  flex-grow: 0,
+  flex-shrink: 1,
+  flex-basis: auto
+  */
+}
+
+.box .row.content {
+  flex: 1 1 auto;
+}
+
+.box .row.footer {
+  flex: 0 1 40px;
+}
+
+.projects {
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project {
+  padding-top: 5px;
+  border-bottom: 1px solid $border-color;
+}
+
+form {
+  display: none;
+}
+
+#proj-name {
+  border: none;
+  border-left: 1px solid $border-color;
+  width: 90%;
+  padding: 3px;
+}
+
+#proj-name:focus {
+  outline: none;
+}
