@@ -9,15 +9,18 @@ main {
   display: grid;
   grid-template-columns: 1fr 5fr 2fr 3fr 1.5fr;
   justify-items: center;
+  border: 1px solid $border-color;
+  padding: 3px;
+  padding-top: 6px;
+}
+
+.task:hover {
+  border-color: black;
+  cursor: pointer;
 }
 
 .task-head {
   border: none;
-}
-
-.edit {
-  cursor: pointer;
-  color: gray;
 }
 
 #edit:hover {
@@ -25,5 +28,27 @@ main {
 }
 
 #delete:hover {
-  color: red;
+  color: rgb(175, 2, 2);
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.edit {
+  cursor: pointer;
+  color: gray;
+  text-decoration: none;
+}
+
+#add {
+  margin: 20px;
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+#add:hover {
+  color: $lime;
+  cursor: pointer;
 }

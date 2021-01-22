@@ -25,6 +25,11 @@ nav {
   border-bottom: 1px solid $border-color;
 }
 
+.project:hover {
+  cursor: pointer;
+  border-color: black;
+}
+
 form {
   display: none;
 }
@@ -38,4 +43,12 @@ form {
 
 #proj-name:focus {
   outline: none;
+}
+
+#add-task {
+  cursor: pointer;
+}
+
+#add-task:hover {
+  color: $lime;
 }
