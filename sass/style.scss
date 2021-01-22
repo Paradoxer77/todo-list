@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
 @import "variables";
-@import "header";
-@import "nav";
 
 * {
   box-sizing: border-box;
@@ -13,3 +11,6 @@
 .body {
   display: flex;
 }
+
+@import "header";
+@import "nav";
