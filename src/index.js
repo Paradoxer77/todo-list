@@ -1,1 +1,1 @@
-import { addTask, project } from "./project";
+import project from "./project";

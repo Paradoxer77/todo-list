@@ -1,17 +1,20 @@
-const addTask = document.getElementById("add-task");
 const projects = document.querySelector(".projects");
 const project = document.getElementById("proj");
-const projectName = document.getElementById("proj-/name");
+const projectName = document.getElementById("proj-name");
 
-addTask.addEventListener("click", () => {
-  // project.classList.add("visible");
-  project.classList.toggle("visible");
-});
-
-window.addEventListener("keydown", (e) => {
+projects.addEventListener("keydown", (e) => {
   if (e.key === "Enter") {
     e.preventDefault();
+    let span = document.createElement("span");
+
+    if (projectName.value.trim() !== "") {
+      span.classList.add("project");
+      span.textContent = projectName.value;
+
+      projectName.value = "";
+      projects.appendChild(span);
+    }
   }
 });
 
-export { addTask, project };
+export default project;
