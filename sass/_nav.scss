@@ -3,7 +3,6 @@ nav {
   min-width: 205px;
   height: 90vh;
   font-size: 1.2em;
-  user-select: none;
 }
 
 .head {
@@ -14,7 +13,7 @@ nav {
 }
 
 .projects {
-  padding-left: 25px;
+  padding-left: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,14 +29,10 @@ nav {
   border-color: black;
 }
 
-form {
-  display: none;
-}
-
 #proj-name {
   border: none;
   border-left: 1px solid $border-color;
-  width: 90%;
+  // width: 10%;
   padding: 3px;
 }
 
@@ -51,4 +46,8 @@ form {
 
 #add-task:hover {
   color: $lime;
+}
+
+.visible {
+  display: none;
 }

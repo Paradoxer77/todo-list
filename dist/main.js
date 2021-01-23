@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=document.getElementById("add-task"),t=(document.querySelector(".projects"),document.getElementById("proj"));document.getElementById("proj-/name"),e.addEventListener("click",(()=>{t.classList.toggle("visible")})),window.addEventListener("keydown",(e=>{"Enter"===e.key&&e.preventDefault()}))})();
