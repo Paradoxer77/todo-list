@@ -3,6 +3,7 @@ nav {
   min-width: 205px;
   height: 90vh;
   font-size: 1.2em;
+  width: 205px;
 }
 
 .head {
@@ -13,7 +14,7 @@ nav {
 }
 
 .projects {
-  padding-left: 10px;
+  padding-left: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,6 +23,7 @@ nav {
 .project {
   padding-top: 5px;
   border-bottom: 1px solid $border-color;
+  overflow-wrap: break-word;
 }
 
 .project:hover {
@@ -32,7 +34,7 @@ nav {
 #proj-name {
   border: none;
   border-left: 1px solid $border-color;
-  // width: 10%;
+  width: 97%;
   padding: 3px;
 }
 
