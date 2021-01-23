@@ -30,7 +30,7 @@ main {
 }
 
 #delete:hover {
-  color: rgb(175, 2, 2);
+  color: $maroon;
 }
 
 .completed {
@@ -47,7 +47,7 @@ main {
 #add {
   margin: 20px;
   margin-left: 50px;
-  margin-right: 10px;
+  // margin-right: 10px;
 }
 
 #add:hover {

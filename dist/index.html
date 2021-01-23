@@ -69,6 +69,45 @@
         </div>
       </div>
 
+      <div class="form-cotainer">
+        <form class="input">
+          <h1>Form</h1>
+
+          <label for="task-title">Title</label>
+          <br>
+          <input type="text" name="task-title" id="task-title">
+
+          <br>
+          <label for="task-due-date">Due Date</label>
+          <br>
+          <input type="date" name="task-due-date" id="task-due-date">
+
+          <br>
+
+          <span>Priority</span>
+
+          <br>
+          <input type="radio" name="priority" id="task-red">
+          <label for="task-red">High</label>
+
+          <input type="radio" name="priority" id="task-yellow">
+          <label for="task-yellow">Medium</label>
+
+          <input type="radio" name="priority" id="task-green">
+          <label for="task-green">Low</label>
+
+          <br>
+          <label for="description">Description</label>
+          <br>
+          <textarea name="description" id="description" cols="30" rows="10"></textarea>
+
+          <br>
+          <button type="submut" id="task-add">Add</button>
+        </form>
+
+        <div class="overlay"></div>
+      </div>
+
       <!-- <h2 id="completed">Completed</h2>
       <div class="tasks">
         <div class="task completed">
