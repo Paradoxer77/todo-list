@@ -22,7 +22,7 @@
 
       <div class="projects">
         <form class="project visible" id="proj">
-          <input type="text" id="proj-name" placeholder="New Project">
+          <input type="text" id="proj-name" placeholder="New Project" minlength="1" maxlength="20">
         </form>
 
         <span class="project">
@@ -48,7 +48,7 @@
         <span>Edit</span>
       </div>
 
-      <div class="tasks">
+      <div class="tasks" id="tasks">
         <div class="task">
           <span>1</span>
           <span>Complete todo list</span>
@@ -58,8 +58,11 @@
             <i class="fas fa-edit edit" id="edit"></i>&nbsp;&nbsp;&nbsp;
             <i class="fas fa-trash-alt edit" id="delete"></i>
           </span>
-        </div>
 
+          <span class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis porro quisquam nam suscipit ipsa debitis dolorem impedit, tempora corporis amet aspernatur officia dolore architecto voluptas repellendus animi asperiores! Consectetur cumque itaque nam! Sequi corrupti pariatur officia dolor, obcaecati neque expedita recusandae perspiciatis deserunt porro, deleniti amet aliquam soluta, explicabo alias!
+          </span>
+        </div>
+        
         <div id="add">
           <i class="fas fa-plus-circle"></i>
           <span>Add Task</span>
